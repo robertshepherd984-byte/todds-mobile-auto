@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Todd's Mobile Auto LLC | Mobile Mechanic Phoenix, AZ</title>
+  <meta name="description" content="Honest mobile mechanic serving Phoenix, AZ. Todd comes to your home, work, or roadside. Upfront pricing, no tow fees." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-brand px-3 py-2 text-center text-sm font-medium text-ink">
+    Mobile service. We come to your home, work, or roadside. Call/Text <a href="tel:6238891350" class="underline">(623) 889-1350</a>
+  </div>
+
+  <header class="sticky top-0 z-10 bg-slate-brand">
+    <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
+      <a href="#top" class="flex items-center gap-2.5 text-white">
+        <span class="grid size-10 place-items-center rounded-lg bg-brand font-display text-xl font-bold text-ink">T</span>
+        <span><span class="block font-display text-xl font-bold uppercase leading-none">Todd's Mobile Auto</span>
+        <span class="hidden text-[11px] tracking-widest text-white/70 sm:block">LLC · EST. [YEAR]</span></span>
+      </a>
+      <nav class="hidden gap-6 text-sm font-medium text-white md:flex">
+        <a href="#services" class="hover:text-brand">Services</a><a href="#how" class="hover:text-brand">How It Works</a>
+        <a href="#pricing" class="hover:text-brand">Pricing</a><a href="#about" class="hover:text-brand">About Todd</a>
+        <a href="#reviews" class="hover:text-brand">Reviews</a>
+      </nav>
+      <a href="tel:6238891350" class="btn !px-5 !py-2.5 text-sm">Call Now</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="bg-slate-brand py-14 text-white md:py-20">
+      <div class="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-[1.25fr_1fr]">
+        <div>
+          <p class="kicker !text-brand">Honest mobile mechanic · Phoenix, AZ</p>
+          <h1 class="font-display text-6xl font-bold uppercase leading-none md:text-8xl">Car trouble?<span class="block text-brand">Todd comes to you.</span></h1>
+          <p class="mt-6 mb-7 max-w-md text-lg text-slate-200">Skip the tow truck and the waiting room. Todd's Mobile Auto brings the shop to your driveway: straight answers, fair prices, and a mechanic who stays calm when your car won't.</p>
+          <div class="flex flex-wrap gap-3"><a href="#quote" class="btn">Get a Free Quote</a><a href="tel:6238891350" class="btn btn-ghost">Call (623) 889-1350</a></div>
+          <dl class="mt-10 flex gap-8 text-sm">
+            <div><dt class="font-display text-3xl font-bold">[X]+</dt><dd>Years turning wrenches</dd></div>
+            <div><dt class="font-display text-3xl font-bold">0</dt><dd>Tow fees</dd></div>
+            <div><dt class="font-display text-3xl font-bold">100%</dt><dd>Upfront pricing</dd></div>
+          </dl>
+        </div>
+        <form id="quote" class="rounded-xl border border-white/20 bg-white/10 p-6">
+          <h2 class="font-display text-3xl font-bold uppercase">Free quote</h2>
+          <p class="mt-1.5 mb-4 text-sm text-slate-200">Tell Todd what's going on. He'll call or text you back.</p>
+          <input id="q-name" class="field" placeholder="Your name" autocomplete="name" aria-label="Your name" />
+          <input id="q-phone" class="field" type="tel" placeholder="Phone number" autocomplete="tel" aria-label="Phone number" />
+          <input id="q-car" class="field" placeholder="Year / Make / Model" aria-label="Year, make and model" />
+          <select id="q-need" class="field" aria-label="What do you need?">
+            <option value="">What do you need?</option><option>Brakes</option><option>Battery &amp; electrical</option>
+            <option>Diagnostics / check engine light</option><option>Oil &amp; maintenance</option>
+            <option>Won't start / roadside</option><option>Pre-purchase inspection</option><option>Something else</option>
+          </select>
+          <button class="btn w-full" type="submit">Send Request</button>
+          <p class="mt-2.5 text-xs text-slate-300">Opens a text message to Todd with your details filled in.</p>
+        </form>
+      </div>
+    </section>
+
+    <section id="services" class="py-16 md:py-20">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="head"><p class="kicker">What we fix</p><h2 class="h2">Real repairs. Right where you are.</h2><p class="mt-4">Most everyday repairs can be done on the spot, at home, at work, or on the side of the road.</p></div>
+        <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="card"><div class="ic">◎</div><h3>Brakes</h3><p>Pads, rotors, calipers and brake fluid. Stop squealing and start stopping.</p></div>
+          <div class="card"><div class="ic">▭</div><h3>Battery &amp; electrical</h3><p>Batteries, starters, alternators, and those mystery electrical gremlins.</p></div>
+          <div class="card"><div class="ic">∿</div><h3>Diagnostics</h3><p>Check engine light on? Todd scans it, explains it in plain English, and gives you options.</p></div>
+          <div class="card"><div class="ic">◊</div><h3>Oil &amp; maintenance</h3><p>Oil changes, fluids, filters, belts and tune-ups, done while you keep your day.</p></div>
+          <div class="card"><div class="ic">⌂</div><h3>No-start &amp; roadside</h3><p>Stuck in a parking lot? Call Todd before you call a tow truck.</p></div>
+          <div class="card"><div class="ic">✓</div><h3>Pre-purchase inspections</h3><p>Buying used? Get an honest second opinion before you hand over the cash.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="bg-slate-brand py-16 text-white md:py-20">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="head"><p class="kicker">How it works</p><h2 class="h2 !text-white">Three steps. Zero waiting rooms.</h2><p class="mt-4 text-slate-200">No shop hours to work around. No ride to beg for.</p></div>
+        <ol class="grid gap-8 md:grid-cols-3">
+          <li class="border-t-4 border-brand pt-4"><b class="font-display text-4xl text-brand">01</b><h3 class="my-1.5 font-display text-2xl uppercase">Call or text</h3><p class="text-slate-200">Tell Todd what your car's doing. He'll give you an honest idea of cost before he rolls out.</p></li>
+          <li class="border-t-4 border-brand pt-4"><b class="font-display text-4xl text-brand">02</b><h3 class="my-1.5 font-display text-2xl uppercase">Todd shows up</h3><p class="text-slate-200">At your house, your job, or wherever you're stuck. Tools, parts and all.</p></li>
+          <li class="border-t-4 border-brand pt-4"><b class="font-display text-4xl text-brand">03</b><h3 class="my-1.5 font-display text-2xl uppercase">You're back on the road</h3><p class="text-slate-200">Fixed on the spot, explained in plain English, and priced the way he said it would be.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="pricing" class="py-16 md:py-20">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="head"><p class="kicker">Upfront pricing</p><h2 class="h2">No surprises on the bill.</h2><p class="mt-4">Here's exactly how Todd prices a job, so you know what to expect before he shows up.</p></div>
+        <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="card border-t-4 border-t-brand text-center"><h3>Diagnostic fee</h3><p class="my-2.5 font-display text-4xl font-bold text-ink">$[XX] <small class="font-sans text-sm font-medium text-slate-500">flat</small></p><p>One flat fee. Todd finds out what's actually wrong and explains it in plain English before any work starts.</p></div>
+          <div class="card border-t-4 border-t-brand text-center"><h3>Travel fee</h3><p class="my-2.5 font-display text-4xl font-bold text-ink">$[XX] <small class="font-sans text-sm font-medium text-slate-500">flat</small></p><p>One flat fee to come to your home, job, or roadside spot. No per-mile charges.</p></div>
+          <div class="card border-t-4 border-t-brand text-center"><h3>Parts</h3><p class="my-2.5 font-display text-4xl font-bold text-ink">At cost</p><p>No markup. You pay exactly what Todd pays for the parts, and you'll see the price before anything is ordered.</p></div>
+          <div class="card border-t-4 border-t-brand text-center"><h3>Labor</h3><p class="my-2.5 font-display text-4xl font-bold text-ink">$150 <small class="font-sans text-sm font-medium text-slate-500">/hr</small></p><p>A fair hourly rate for the time the repair takes. You'll get an estimate up front.</p></div>
+        </div>
+        <p class="mt-6 text-center text-sm">You approve the full quote (diagnostic + travel + parts + labor) before any repair begins.</p>
+      </div>
+    </section>
+
+    <section id="about" class="pb-16 md:pb-20">
+      <div class="mx-auto grid max-w-6xl items-center gap-14 px-5 md:grid-cols-[1fr_1.2fr]">
+        <div class="relative grid min-h-96 place-items-center rounded-xl border-2 border-dashed border-slate-400 bg-ink p-5 text-center text-slate-200">
+          [ Photo of Todd<br />with the work truck ]
+          <span class="absolute -bottom-4 -left-3.5 rounded-md bg-brand px-4 py-3 text-center font-display text-lg font-semibold uppercase leading-tight text-ink">Family man.<br />Calm mechanic.</span>
+        </div>
+        <div>
+          <p class="kicker">Meet the owner</p>
+          <h2 class="h2 mb-4">Hi, I'm Todd.</h2>
+          <p class="mb-3.5">I'm a local dad raising two teenage boys, so I know what it means when the family car goes down: somebody's missing practice, somebody's late for work, and the day gets flipped upside down. That's exactly why I started Todd's Mobile Auto: to bring the fix to you.</p>
+          <p>Folks who know me will tell you I don't get worked up easily. A car that won't start is stressful enough. You don't need a mechanic adding to it. I'll keep things calm, tell you what's actually wrong, and never push work you don't need.</p>
+          <div class="mt-6 grid gap-3 text-sm sm:grid-cols-2">
+            <div class="card !p-3.5"><b class="block text-ink">✓ Cool-headed</b>Patient, easygoing, no drama.</div>
+            <div class="card !p-3.5"><b class="block text-ink">✓ Straight talk</b>Plain-English answers, no upsell.</div>
+            <div class="card !p-3.5"><b class="block text-ink">✓ Family first</b>Treats your car like it's his own.</div>
+            <div class="card !p-3.5"><b class="block text-ink">✓ Local &amp; reliable</b>Shows up when he says he will.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="pb-16 md:pb-20">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="head"><p class="kicker">What neighbors say</p><h2 class="h2">Reviews</h2><p class="mt-4">Drop in real Facebook or Google reviews here.</p></div>
+        <div class="grid gap-5 md:grid-cols-3">
+          <figure class="card border-2 border-dashed bg-transparent"><p class="mb-2.5 tracking-widest text-brand-dark">★★★★★</p><blockquote class="opacity-70">[ Customer review #1: paste from Facebook ]</blockquote><figcaption class="mt-3.5 text-sm opacity-70">Customer name</figcaption></figure>
+          <figure class="card border-2 border-dashed bg-transparent"><p class="mb-2.5 tracking-widest text-brand-dark">★★★★★</p><blockquote class="opacity-70">[ Customer review #2: paste from Facebook ]</blockquote><figcaption class="mt-3.5 text-sm opacity-70">Customer name</figcaption></figure>
+          <figure class="card border-2 border-dashed bg-transparent"><p class="mb-2.5 tracking-widest text-brand-dark">★★★★★</p><blockquote class="opacity-70">[ Customer review #3: paste from Google ]</blockquote><figcaption class="mt-3.5 text-sm opacity-70">Customer name</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-brand px-5 py-16 text-center text-ink md:py-20">
+      <h2 class="font-display text-5xl font-bold uppercase md:text-6xl">Stuck? Don't sweat it.</h2>
+      <p class="mt-3 mb-6 text-lg">Call or text Todd. He'll come to you.</p>
+      <a href="tel:6238891350" class="btn btn-dark">(623) 889-1350</a>
+    </section>
+  </main>
+
+  <footer class="bg-slate-brand py-9 text-sm text-slate-200">
+    <div class="mx-auto grid max-w-6xl gap-6 px-5 md:grid-cols-3">
+      <div><b class="block text-white">Todd's Mobile Auto LLC</b>Mobile mechanic serving Phoenix, AZ</div>
+      <div><b class="block text-white">Hours</b>[Mon–Sat, 7am–6pm]</div>
+      <div><b class="block text-white">Contact</b>(623) 889-1350 · Find us on Facebook</div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
